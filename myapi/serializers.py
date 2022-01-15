@@ -5,9 +5,9 @@ from .models import Operativka, Videocard
 class OperativkaSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Operativka
-        fields = ('name', 'image', 'price', 'pamyat', 'description')
+        fields = ('name', 'price', 'pamyat', 'description')
 
 class VideocardSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Videocard
-        fields = ('name', 'image', 'price', 'pamyat', 'mochnost', 'description')
+        fields = ('name', 'price', 'pamyat', 'mochnost', 'description')
