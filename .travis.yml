@@ -11,5 +11,5 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure:
+    secure: gWNIqEVQvTanOfc8qPRysZoBON7JsyOfbOUbGVdG1cBjeQUHHo+RYynq//V5nmC+HpibRnnwc/op9hlRtuR+Eg/ZCdfveA8kUj9OG7qNIHKxAneq/XWsZgn/VW//UCQMv9ceGq8acpS99JF44EXBVObpL4WNeiuha2+aHRWWL28pij+iqZtX7ODVnffB+vEEPXMqU9QP5jPZT5tplVykstkse8B/5Qu/eW6jFPhems0QhWJxRk7AaogvpPU0oP/JPo2evir/oRprxFtygw/RDC+DXOLJntHb5fCH77PuHHXXisjo5HS8+aedCScmhPhtzIYOPo5oVPfhwNGeJu++ki1djpCfBomyhygNoJQiSZ8rr0yWLJql0SUWoZFzrdLcG+RE5ePM04En9kx2s4OqAxI3jRh7+W4ty6033yrK+6g0kqblHqzI/Buf3jMNb96pxoZ1tuDCPUJhdP33fvAFX/EcCAltAWwTbpbiI1gpyp6h/eY9M3n70d8ZAxMPDTvM5UzIXm5BWRhO0QtgjhtfSJIa6YgC2Kj1KEgQCFPEIHL/UBZ6q/9ttUzAIKijcaKdd6UqPP8XDjbeaeziQuQAPB+Be2k64ZIoYnLSMMLY0n8fUFNZYTR32kBrMdJoAAaNbgqkq/rBg1uwvmzF2CFWXDYIEIqwaY2GFAwlCUOlndY=
   app:
