@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-_0xct)xnbw%kxxi_pzs)ibej=uj49e3u$ap!7fdahb4pj^_s+6'
+SECRET_KEY = 'django-insecure-4bs!f5(5s%nb(54h!1tn!^f9jwuu++2ks7zd(lt%g@$ssshl(z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -79,8 +79,12 @@ WSGI_APPLICATION = 'kursovaya.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'django_db',
+        'USER': 'postgres',
+        'PASSWORD': os.environ['DATABASE_PASSWORD'] if 'DATABASE_PASSWORD' in os.environ else '',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
